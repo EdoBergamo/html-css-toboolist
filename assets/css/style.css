@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: hsl(206, 16%, 92%)
+}
+
 /* Header */
 header {
     padding: 12px 24px;
