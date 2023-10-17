@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: hsl(206, 16%, 92%)
+}
+
+/* Header */
+header {
+    padding: 12px 24px;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 60px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+/* Main - Buttons */
+#container {
+    padding: 24px;
+}
+
+.buttons,
+.container {
+    max-width: 960px;
+    margin: 4px auto;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 24px;
+    padding-right: 64px;
+    padding-bottom: 12px;
+    padding-left: 64px;
+    border-radius: 4px;
+}
+
+.button {
+    all: unset;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.task {
+    background-color: hsl(212, 69%, 52%);
+    border: 2px solid hsl(212, 69%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+.section {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 81%);
+}
+
+/* Main - List */
+h2::before {
+    content: '\25be';
+    font-size: 20px;
+    vertical-align: middle;   
+    display: inline-block;
+}
+
+h2 {
+    vertical-align: middle;
+}
+
+.check::before {
+    content: '\2713';
+    border: 1.5px solid hsl(127, 54%, 45%);
+    color: hsl(127, 54%, 45%);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    margin: 8px 8px 8px 0;
+    vertical-align: middle;
+}
+
+.cross::before {
+    content: '\2717';
+    border: 1.5px solid hsl(0, 100%, 53%);
+    color: hsl(0, 100%, 53%);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    margin: 8px 8px 8px 0;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.label {
+    text-align: center;
+    border-radius: 30px;
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
+    margin-left: 5px;
+    vertical-align: middle;
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+
+.editorial {
+    background-color: hsl(212, 88%, 65%);
+}
+
+.goals {
+    background-color: hsl(267, 64%, 65%);
+}
+
+.recruiting {
+    background-color: hsl(155, 50%, 52%);
+}
+
+.mobile {
+    background-color: hsl(31, 82%, 53%);
+}
+
+.website {
+    background-color: hsl(322, 49%, 54%);
+}
+
+.sales {
+    background-color: hsl(84, 42%, 55%);
+}
