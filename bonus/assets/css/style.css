@@ -43,6 +43,28 @@ h1 {
     border-radius: 4px;
 }
 
+/* Hover Effect */
+.button:hover {
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.3);
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+
+/* First Button */
+.button:hover:nth-child(1) {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(212, 69%, 52%);
+    color: hsl(212, 69%, 52%);
+}
+
+/* Second Button */
+.button:hover:nth-child(2) {
+    background-color: hsl(0, 0%, 81%);
+    border: 2px solid hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 100%);
+}
+/* End Hover Effect */
+
 .button {
     all: unset;
     text-align: center;
