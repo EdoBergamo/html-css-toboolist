@@ -13,6 +13,7 @@ body {
 /* Header */
 header {
     padding: 12px 24px;
+    background-color: #fff;
 }
 
 .logo {
